@@ -1,0 +1,42 @@
+.wrapper {
+  width: 100%;
+  padding: 27px 48px;
+  background: #4e1c91;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftWrapper {
+  display: flex;
+  column-gap: 80px;
+
+  span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+}
+
+.rightWrapper {
+  display: flex;
+  column-gap: 12px;
+
+  span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+}
+
+.whitePlanet {
+  width: 32px;
+  height: 32px;
+}

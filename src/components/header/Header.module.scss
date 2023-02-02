@@ -1,0 +1,104 @@
+.contentWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20rem;
+}
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+}
+
+.logoWrapper {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 4rem;
+  font-weight: 300;
+  max-width: 27rem;
+}
+
+.nasaLabel {
+  font-size: 64px;
+}
+
+.navigation {
+  max-width: 130rem;
+  border-bottom: 4px solid #f0f0f0;
+  display: flex;
+  column-gap: 6rem;
+  padding: 2rem 4rem;
+}
+
+.navigation span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.actionsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 5rem;
+  padding-right: 2.8rem;
+  padding-top: 1.5rem;
+  position: relative;
+}
+
+.iconWrapper {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.burgerMenu {
+  width: 380px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 534px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  z-index: 1;
+
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      font-weight: 500;
+    }
+  }
+
+  span:last-child {
+    border-bottom: none;
+  }
+}
+
+.burgerHead {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  .closeIconWrapper {
+    height: 3.2rem;
+    width: 3.2rem;
+    cursor: pointer;
+  }
+}

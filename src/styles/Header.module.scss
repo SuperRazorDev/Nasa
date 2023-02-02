@@ -1,0 +1,16 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .logoWrapper {
+    width: 2.42rem !important;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.nasaLabel {
+}
